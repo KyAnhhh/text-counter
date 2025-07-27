@@ -7,6 +7,7 @@
   max-width: 400px;
   margin: 40px auto;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  padding-left: 7px;
 }
 
 /* Input area */
@@ -52,4 +53,33 @@
 
 .textcount-btn:hover {
   background: #4f46e5;
+}
+.textcount-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.btn {
+  padding: 10px 16px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn.save {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.btn.reset {
+  background-color: #ef4444;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
 }
