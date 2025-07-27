@@ -1,0 +1,55 @@
+/* Container styling */
+.textcount-container {
+  background: #f9f9fb;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 24px 32px;
+  max-width: 400px;
+  margin: 40px auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+/* Input area */
+.textcount-input {
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 12px;
+  font-size: 1rem;
+  resize: vertical;
+  margin-bottom: 16px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.textcount-input:focus {
+  border-color: #6366f1;
+  background: #f3f4f6;
+}
+
+/* Counter display */
+.textcount-counter {
+  font-size: 1.1rem;
+  color: #6366f1;
+  font-weight: 600;
+  text-align: right;
+  margin-top: 8px;
+}
+
+/* Optional: Button styling */
+.textcount-btn {
+  background: #6366f1;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 12px;
+}
+
+.textcount-btn:hover {
+  background: #4f46e5;
+}
